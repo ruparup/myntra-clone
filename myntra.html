@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Myntra - Fashion Shopping</title>
+
+    <link rel="stylesheet" href="./myntra.css">
+</head>
+
+<body>
+
+    <!-- ===================================================== -->
+    <!-- NAVBAR -->
+    <!-- ===================================================== -->
+
+    <header class="navbar">
+
+        <!-- LOGO -->
+        <a href="#" class="logo">
+
+            <svg class="myntra-symbol" viewBox="0 0 100 100">
+                <defs>
+                    <linearGradient id="myntraGradient"
+                        x1="0%"
+                        y1="0%"
+                        x2="100%"
+                        y2="100%">
+
+                        <stop offset="0%" stop-color="#ff512f"></stop>
+                        <stop offset="50%" stop-color="#ff3f81"></stop>
+                        <stop offset="100%" stop-color="#ff00a8"></stop>
+
+                    </linearGradient>
+                </defs>
+
+                <path
+                    d="M15 80 L30 20 L50 55 L70 20 L85 80"
+                    fill="none"
+                    stroke="url(#myntraGradient)"
+                    stroke-width="12"
+                    stroke-linecap="round"
+                    stroke-linejoin="round">
+                </path>
+
+            </svg>
+
+            <span>MYNTRA</span>
+
+        </a>
+
+
+        <!-- ================================================= -->
+        <!-- MENU -->
+        <!-- ================================================= -->
+
+        <nav class="menu">
+
+
+            <!-- ================= MEN ================= -->
+
+            <div class="nav-item">
+
+                <a href="#">MEN</a>
+
+                <div class="dropdown">
+
+                    <div class="dropdown-column">
+
+                        <h4>TOPWEAR</h4>
+
+                        <a href="#">T-Shirts</a>
+                        <a href="#">Casual Shirts</a>
+                        <a href="#">Formal Shirts</a>
+                        <a href="#">Sweatshirts</a>
+                        <a href="#">Sweaters</a>
+                        <a href="#">Jackets</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>BOTTOMWEAR</h4>
+
+                        <a href="#">Jeans</a>
+                        <a href="#">Casual Trousers</a>
+                        <a href="#">Formal Trousers</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Track Pants</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>FOOTWEAR</h4>
+
+                        <a href="#">Casual Shoes</a>
+                        <a href="#">Sports Shoes</a>
+                        <a href="#">Formal Shoes</a>
+                        <a href="#">Sneakers</a>
+                        <a href="#">Sandals</a>
+                        <a href="#">Flip Flops</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>INNERWEAR</h4>
+
+                        <a href="#">Briefs</a>
+                        <a href="#">Boxers</a>
+                        <a href="#">Vests</a>
+                        <a href="#">Trunks</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= WOMEN ================= -->
+
+            <div class="nav-item">
+
+                <a href="#">WOMEN</a>
+
+                <div class="dropdown">
+
+                    <div class="dropdown-column">
+
+                        <h4>INDIAN &amp; FUSION WEAR</h4>
+
+                        <a href="#">Kurtas &amp; Suits</a>
+                        <a href="#">Sarees</a>
+                        <a href="#">Ethnic Wear</a>
+                        <a href="#">Lehenga Choli</a>
+                        <a href="#">Dupattas</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>WESTERN WEAR</h4>
+
+                        <a href="#">Dresses</a>
+                        <a href="#">Tops</a>
+                        <a href="#">T-Shirts</a>
+                        <a href="#">Jeans</a>
+                        <a href="#">Trousers</a>
+                        <a href="#">Jumpsuits</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>FOOTWEAR</h4>
+
+                        <a href="#">Flats</a>
+                        <a href="#">Heels</a>
+                        <a href="#">Casual Shoes</a>
+                        <a href="#">Sports Shoes</a>
+                        <a href="#">Boots</a>
+                        <a href="#">Sandals</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>BEAUTY</h4>
+
+                        <a href="#">Makeup</a>
+                        <a href="#">Skincare</a>
+                        <a href="#">Haircare</a>
+                        <a href="#">Fragrances</a>
+                        <a href="#">Beauty Accessories</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= KIDS ================= -->
+
+            <div class="nav-item">
+
+                <a href="#">KIDS</a>
+
+                <div class="dropdown">
+
+                    <div class="dropdown-column">
+
+                        <h4>BOYS</h4>
+
+                        <a href="#">T-Shirts</a>
+                        <a href="#">Shirts</a>
+                        <a href="#">Jeans</a>
+                        <a href="#">Trousers</a>
+                        <a href="#">Shorts</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>GIRLS</h4>
+
+                        <a href="#">Dresses</a>
+                        <a href="#">Tops</a>
+                        <a href="#">T-Shirts</a>
+                        <a href="#">Skirts</a>
+                        <a href="#">Jeans</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>FOOTWEAR</h4>
+
+                        <a href="#">Casual Shoes</a>
+                        <a href="#">Sports Shoes</a>
+                        <a href="#">Sandals</a>
+                        <a href="#">School Shoes</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>ACCESSORIES</h4>
+
+                        <a href="#">Bags</a>
+                        <a href="#">Watches</a>
+                        <a href="#">Caps</a>
+                        <a href="#">Sunglasses</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= HOME ================= -->
+
+            <div class="nav-item">
+
+                <a href="#">HOME</a>
+
+                <div class="dropdown">
+
+                    <div class="dropdown-column">
+
+                        <h4>BEDDING</h4>
+
+                        <a href="#">Bedsheets</a>
+                        <a href="#">Bed Covers</a>
+                        <a href="#">Pillows</a>
+                        <a href="#">Blankets</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>DECOR</h4>
+
+                        <a href="#">Wall Decor</a>
+                        <a href="#">Clocks</a>
+                        <a href="#">Photo Frames</a>
+                        <a href="#">Mirrors</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>FURNISHING</h4>
+
+                        <a href="#">Curtains</a>
+                        <a href="#">Cushion Covers</a>
+                        <a href="#">Carpets</a>
+                        <a href="#">Rugs</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>KITCHEN</h4>
+
+                        <a href="#">Dinner Sets</a>
+                        <a href="#">Mugs</a>
+                        <a href="#">Glassware</a>
+                        <a href="#">Storage</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= BEAUTY ================= -->
+
+            <div class="nav-item">
+
+                <a href="#">BEAUTY</a>
+
+                <div class="dropdown">
+
+                    <div class="dropdown-column">
+
+                        <h4>MAKEUP</h4>
+
+                        <a href="#">Lipstick</a>
+                        <a href="#">Foundation</a>
+                        <a href="#">Mascara</a>
+                        <a href="#">Eyeliner</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>SKINCARE</h4>
+
+                        <a href="#">Face Wash</a>
+                        <a href="#">Moisturizers</a>
+                        <a href="#">Sunscreen</a>
+                        <a href="#">Serums</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>HAIRCARE</h4>
+
+                        <a href="#">Shampoo</a>
+                        <a href="#">Conditioner</a>
+                        <a href="#">Hair Oil</a>
+                        <a href="#">Hair Styling</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>FRAGRANCE</h4>
+
+                        <a href="#">Perfumes</a>
+                        <a href="#">Body Mists</a>
+                        <a href="#">Deodorants</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= GENZ ================= -->
+
+            <div class="nav-item">
+
+                <a href="#">
+                    GENZ
+                    <span class="new-text">NEW</span>
+                </a>
+
+                <div class="dropdown">
+
+                    <div class="dropdown-column">
+
+                        <h4>GEN Z STYLES</h4>
+
+                        <a href="#">Oversized T-Shirts</a>
+                        <a href="#">Baggy Jeans</a>
+                        <a href="#">Crop Tops</a>
+                        <a href="#">Cargo Pants</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>TRENDING</h4>
+
+                        <a href="#">Streetwear</a>
+                        <a href="#">Casual Wear</a>
+                        <a href="#">Party Wear</a>
+                        <a href="#">College Wear</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>COLLECTIONS</h4>
+
+                        <a href="#">New Arrivals</a>
+                        <a href="#">Trending Now</a>
+                        <a href="#">Best Sellers</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>ACCESSORIES</h4>
+
+                        <a href="#">Bags</a>
+                        <a href="#">Caps</a>
+                        <a href="#">Jewellery</a>
+                        <a href="#">Sunglasses</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= STUDIO ================= -->
+
+            <div class="nav-item">
+
+                <a href="#">
+                    STUDIO
+                    <span class="new-text">NEW</span>
+                </a>
+
+                <div class="dropdown">
+
+                    <div class="dropdown-column">
+
+                        <h4>MYNTRA STUDIO</h4>
+
+                        <a href="#">Fashion Stories</a>
+                        <a href="#">Celebrity Styles</a>
+                        <a href="#">Fashion Trends</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>EXPLORE</h4>
+
+                        <a href="#">Latest Trends</a>
+                        <a href="#">Style Guide</a>
+                        <a href="#">Fashion Ideas</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>INSPIRATION</h4>
+
+                        <a href="#">Street Style</a>
+                        <a href="#">Party Looks</a>
+                        <a href="#">Casual Looks</a>
+
+                    </div>
+
+
+                    <div class="dropdown-column">
+
+                        <h4>DISCOVER</h4>
+
+                        <a href="#">Trending Fashion</a>
+                        <a href="#">Top Brands</a>
+                        <a href="#">Editor's Picks</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+
+        <!-- ================================================= -->
+        <!-- SEARCH -->
+        <!-- ================================================= -->
+
+        <div class="search-box">
+
+            <span class="search-icon">⌕</span>
+
+            <input
+                type="text"
+                placeholder="Search for products, brands and more">
+
+        </div>
+
+
+
+        <!-- ================================================= -->
+        <!-- ACTIONS -->
+        <!-- ================================================= -->
+
+        <div class="actions">
+
+
+            <!-- PROFILE -->
+
+            <div class="profile-action">
+
+                <div class="action-icon">♙</div>
+
+                <span>Profile</span>
+
+
+                <div class="profile-dropdown">
+
+                    <h3>Welcome</h3>
+
+                    <p>
+                        To access account and manage orders
+                    </p>
+
+                    <button>
+                        LOGIN / SIGNUP
+                    </button>
+
+
+                    <div class="profile-menu">
+
+                        <a href="#">Orders</a>
+                        <a href="#">Wishlist</a>
+                        <a href="#">Gift Cards</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Myntra Insider</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- WISHLIST -->
+
+            <div class="action">
+
+                <div class="action-icon">
+                    ♡
+                </div>
+
+                <span>Wishlist</span>
+
+            </div>
+
+
+
+            <!-- BAG -->
+
+            <div class="action">
+
+                <div class="action-icon">
+                    ▱
+                </div>
+
+                <span>Bag</span>
+
+            </div>
+
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ===================================================== -->
+    <!-- HERO -->
+    <!-- ===================================================== -->
+
+    <section class="hero">
+
+        <img
+            src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=2000&q=85"
+            alt="Fashion">
+
+        <div class="hero-content">
+
+            <p>FASHION SALE</p>
+
+            <h1>
+                BIG FASHION<br>
+                FESTIVAL
+            </h1>
+
+            <h3>
+                UP TO 70% OFF
+            </h3>
+
+            <button>
+                SHOP NOW
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===================================================== -->
+    <!-- SHOP BY CATEGORY -->
+    <!-- ===================================================== -->
+
+    <section class="section">
+
+        <h2>SHOP BY CATEGORY</h2>
+
+        <div class="category-grid">
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=600&q=80">
+                <h3>MEN</h3>
+            </div>
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&q=80">
+                <h3>WOMEN</h3>
+            </div>
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=600&q=80">
+                <h3>KIDS</h3>
+            </div>
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=600&q=80">
+                <h3>HOME</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===================================================== -->
+    <!-- DEALS -->
+    <!-- ===================================================== -->
+
+    <section class="section">
+
+        <h2>DEALS OF THE DAY</h2>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+
+                <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80">
+
+                <h3>Fashion Collection</h3>
+
+                <p>UP TO 60% OFF</p>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <img src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=600&q=80">
+
+                <h3>Women's Fashion</h3>
+
+                <p>UP TO 70% OFF</p>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80">
+
+                <h3>Trending Styles</h3>
+
+                <p>STARTING ₹499</p>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80">
+
+                <h3>New Arrivals</h3>
+
+                <p>UP TO 50% OFF</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===================================================== -->
+    <!-- TRENDING -->
+    <!-- ===================================================== -->
+
+    <section class="section">
+
+        <h2>TRENDING NOW</h2>
+
+        <div class="trending-grid">
+
+            <div class="trend-card">
+
+                <img src="https://images.unsplash.com/photo-1496217590455-aa63a8350eea?auto=format&fit=crop&w=1000&q=80">
+
+                <div>
+                    <h2>MEN'S COLLECTION</h2>
+                    <p>Explore Now</p>
+                </div>
+
+            </div>
+
+
+            <div class="trend-card">
+
+                <img src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=80">
+
+                <div>
+                    <h2>WOMEN'S COLLECTION</h2>
+                    <p>Explore Now</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===================================================== -->
+    <!-- BIG BANNER -->
+    <!-- ===================================================== -->
+
+    <section class="big-banner">
+
+        <img
+            src="https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=2000&q=85"
+            alt="Fashion Banner">
+
+        <div class="banner-content">
+
+            <h1>FASHION FOR EVERYONE</h1>
+
+            <p>
+                Discover the latest styles and trends
+            </p>
+
+            <button>
+                EXPLORE NOW
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===================================================== -->
+    <!-- SHOP BY BRAND -->
+    <!-- ===================================================== -->
+
+    <section class="section">
+
+        <h2>SHOP BY BRAND</h2>
+
+        <div class="brand-grid">
+
+            <div class="brand-card">
+                <h2>H&amp;M</h2>
+                <p>UP TO 50% OFF</p>
+            </div>
+
+            <div class="brand-card">
+                <h2>ZARA</h2>
+                <p>UP TO 40% OFF</p>
+            </div>
+
+            <div class="brand-card">
+                <h2>NIKE</h2>
+                <p>UP TO 60% OFF</p>
+            </div>
+
+            <div class="brand-card">
+                <h2>ADIDAS</h2>
+                <p>UP TO 50% OFF</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===================================================== -->
+    <!-- FOOTER -->
+    <!-- ===================================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+            <div class="footer-column">
+
+                <h3>ONLINE SHOPPING</h3>
+
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Home</a>
+                <a href="#">Beauty</a>
+                <a href="#">Gift Cards</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>USEFUL LINKS</h3>
+
+                <a href="#">Contact Us</a>
+                <a href="#">FAQ</a>
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+                <a href="#">Terms &amp; Conditions</a>
+                <a href="#">Privacy Policy</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>ABOUT</h3>
+
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Myntra Insider</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>KEEP IN TOUCH</h3>
+
+                <p>
+                    Follow us for the latest fashion
+                    trends and offers.
+                </p>
+
+                <div class="social-icons">
+
+                    <span>f</span>
+                    <span>𝕏</span>
+                    <span>◎</span>
+                    <span>▶</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 Myntra Fashion Shopping.
+            Created for HTML &amp; CSS practice.
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
